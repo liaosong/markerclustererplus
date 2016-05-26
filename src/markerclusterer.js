@@ -1671,4 +1671,7 @@ if (typeof String.prototype.trim !== 'function') {
     return this.replace(/^\s+|\s+$/g, '');
   };
 }
+if(typeof exports === 'object') {
+  module.exports = MarkerClusterer;
+}
 
